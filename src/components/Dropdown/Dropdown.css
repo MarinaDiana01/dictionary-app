@@ -1,0 +1,15 @@
+.navbar-dropdown {
+  min-width: 84px;
+  padding-right: 0px;
+}
+
+.Mui-selected {
+  background-color: transparent !important;
+}
+
+.navbar-dropdown-item:hover {
+  background-color: rgba(245, 245, 245, 0.9) !important;
+  color: var(--mediumPurple);
+}
+
+

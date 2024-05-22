@@ -1,0 +1,75 @@
+.word-meaning-lexical-category {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.word-meaning-lexical-category h3 {
+  font-style: italic;
+}
+
+.word-meaning-content-container {
+  color: var(--lightGray);
+}
+
+.word-meaning-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+}
+
+.word-meaning-content li::marker {
+  color: var(--mediumPurple);
+}
+
+.word-meaning-synonyms-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+
+.word-meaning-synonyms-title {
+  color: var(--lightGray);
+  margin-right: 22px;
+}
+
+.word-meaning-synonyms {
+  color: var(--mediumPurple);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .word-meaning-lexical-category h3 {
+    font-size: 26px;
+  }
+  .word-meaning-content-container {
+    font-size: 17px;
+  }
+  .word-meaning-content li {
+    font-size: 16px;
+  }
+  .word-meaning-synonyms-title {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .word-meaning-lexical-category h3 {
+    font-size: 30px;
+  }
+  .word-meaning-content-container {
+    font-size: 19px;
+  }
+  .word-meaning-content li {
+    font-size: 17px;
+  }
+  .word-meaning-synonyms-title {
+    font-size: 19px;
+  }
+  .word-meaning-synonyms {
+    font-size: 17px;
+  }
+}

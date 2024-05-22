@@ -1,0 +1,95 @@
+.word-meaning-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word-meaning-term {
+  margin-bottom: 4px;
+}
+
+.word-meaning-phonetic {
+  color: var(--mediumPurple);
+  font-size: 18px;
+}
+
+.word-meaning-speech-button {
+  display: flex;
+  padding: 12px 12px;
+  border-radius: 50%;
+  background-color: var(--lightPurple);
+  color: var(--mediumPurple);
+  border: none;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+
+.word-meaning-speech-button:hover {
+  background-color: var(--mediumPurple);
+  color: var(--white);
+}
+
+.word-meaning-dark-speech-button {
+  background-color: var(--mediumPurple);
+  color: var(--white);
+}
+
+.word-meaning-dark-speech-button:hover {
+  background-color: var(--lightPurple);
+  color: var(--mediumPurple);
+}
+
+.word-meaning-footer-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.word-meaning-footer-container p { 
+  color: var(--lightGray);
+  width: 100%;
+}
+
+.word-meaning-footer-container a {
+  color: var(--lightBlack);
+  font-size: 15px;
+}
+
+.word-meaning-footer-icon {
+  color: var(--darkGray);
+}
+
+
+@media screen and (min-width: 768px) {
+  .word-meaning-term {
+    font-size: 40px;
+  }
+  .word-meaning-phonetic {
+    font-size: 20px;
+  }
+  .word-meaning-footer-container {
+    flex-wrap: nowrap;
+  }
+  .word-meaning-footer-container p{
+    font-size: 17px;
+    width: fit-content;
+    margin-right: 20px;
+  }
+  .word-meaning-footer-container a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .word-meaning-term {
+    font-size: 46px;
+  }
+  .word-meaning-phonetic {
+    font-size: 22px;
+  }
+  .word-meaning-footer-container p{
+    font-size: 19px;
+  }
+}
