@@ -35,6 +35,7 @@ const WordDescription = (props) => {
         <a
           href={`https://en.wiktionary.org/wiki/${props.wordData[0].word}`}
           className={`${props.isSwitchOn === true ? "white-text" : ""}`}
+          target="_blank"
         >{`https://en.wiktionary.org/wiki/${props.wordData[0].word}`}</a>
         <OpenInNewIcon fontSize="small" className="word-meaning-footer-icon" />
       </div>

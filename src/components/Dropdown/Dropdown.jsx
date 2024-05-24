@@ -42,6 +42,9 @@ const Dropdown = (props) => {
           "& .MuiInputBase-input": {
             padding: "2px",
           },
+          "& .MuiMenu-list": {
+            backgroundColor: "red !important",
+          },
         }}
       >
         <MenuItem
